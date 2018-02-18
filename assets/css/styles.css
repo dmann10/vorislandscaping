@@ -1,0 +1,43 @@
+.navbar.navbar-light.navbar-expand-md.navigation-clean {
+    padding: 0;
+    height: 127px;
+    overflow: hidden;
+}
+
+.logo {
+    zoom: 25%;
+    margin-bottom: 30px;
+}
+
+.nav-link {
+    border: 1px solid white;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #00854c;
+}
+
+#splashImage {
+    height: 100vh;
+    background-image: url("../img/vlSplash.jpeg");
+    background-position: center;
+    background-size: contain;
+}
+
+#splashImage > h1 {
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    text-shadow: 2px 0 black;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+#aboutUsSection {
+    min-height: 500px;
+}
+
+.footer-basic {
+    box-shadow: 1px 1px 10px darkgray;
+}
