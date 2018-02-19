@@ -25,11 +25,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" onclick="scrollToHome()">Home</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#" onclick="scrollToAbout()">About Us</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Services</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" onclick="scrollToServices()">Services</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Gallery</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact Us</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" onclick="scrollToContactUs()">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,7 +37,7 @@
     </div>
     <div data-bs-parallax-bg="true" id="splashImage">
         <h1>We're passionate about our work.</h1>
-        <div id="seeHowBtn">SEE HOW</div>
+        <div id="seeHowBtn" onclick="scrollToServices()">SEE HOW</div>
     </div>
 
     <div class="container-fluid">
@@ -58,6 +58,93 @@
             <div class="col-md-4" id="aboutUsRightImage"></div>
         </div>
     </div>
+
+    <div class="container-fluid serviceSection">
+        <h1>Our Services</h1>
+        <h4><b>Providing Quality to both Residential and Commercial Customers across the Capital Region</b></h4>
+        <div class="row">
+            <div class="col-md-3 serviceCol">
+                <h3>Hardscape</h3>
+                <div class="serviceInfo">
+                    <img src="/assets/img/hardscapeService.jpg" alt="Hardscape Photo">
+                    <div class="serviceInfoText">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin elementum quis magna ac dignissim. 
+                            Maecenas vestibulum posuere rutrum. Duis ut nisi sodales, lobortis purus sit amet, auctor lectus. 
+                            Donec quis lectus eget arcu bibendum auctor. In id ipsum vitae leo consectetur feugiat non vitae eros. 
+                            Quisque molestie egestas velit vel sagittis. Etiam quis volutpat ligula.
+                        </p>    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 serviceCol">
+                <h3>Softscape</h3>
+                <div class="serviceInfo">
+                    <img src="assets/img/softscapeService.jpg" alt="Softscape Photo">
+                    <div class="serviceInfoText">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin elementum quis magna ac dignissim. 
+                            Maecenas vestibulum posuere rutrum. Duis ut nisi sodales, lobortis purus sit amet, auctor lectus. 
+                            Donec quis lectus eget arcu bibendum auctor. In id ipsum vitae leo consectetur feugiat non vitae eros. 
+                            Quisque molestie egestas velit vel sagittis. Etiam quis volutpat ligula.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 serviceCol">
+                <h3>Design &amp; Install</h3>
+                <div class="serviceInfo">
+                    <img src="assets/img/designInstallService.jpg" alt="Design &amp; Install Photo">
+                    <div class="serviceInfoText">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin elementum quis magna ac dignissim. 
+                            Maecenas vestibulum posuere rutrum. Duis ut nisi sodales, lobortis purus sit amet, auctor lectus. 
+                            Donec quis lectus eget arcu bibendum auctor. In id ipsum vitae leo consectetur feugiat non vitae eros. 
+                            Quisque molestie egestas velit vel sagittis. Etiam quis volutpat ligula.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 serviceCol">
+                <h3>Snow &amp; Ice Removal</h3>
+                <div class="serviceInfo">
+                    <img src="assets/img/snowRemovalService.jpg" alt="Snow &amp; Ice Removal Photo">
+                    <div class="serviceInfoText">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin elementum quis magna ac dignissim. 
+                            Maecenas vestibulum posuere rutrum. Duis ut nisi sodales, lobortis purus sit amet, auctor lectus. 
+                            Donec quis lectus eget arcu bibendum auctor. In id ipsum vitae leo consectetur feugiat non vitae eros. 
+                            Quisque molestie egestas velit vel sagittis. Etiam quis volutpat ligula.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="contactUsSection">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Contact Us</h1>
+                <p style="font-size:20px">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin elementum quis magna ac dignissim. 
+                    Maecenas vestibulum posuere rutrum. Duis ut nisi sodales, lobortis purus sit amet, auctor lectus. 
+                    Donec quis lectus eget arcu bibendum auctor. In id ipsum vitae leo consectetur feugiat non vitae eros. 
+                    Quisque molestie egestas velit vel sagittis. Etiam quis volutpat ligula.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <form action="https://formspree.io/vorislandscapinginc@yahoo.com" method="POST" style="margin-top:13px"> 
+                    <input class="formInput" type="text" name="name" placeholder="Full Name">
+                    <input class="formInput" type="tel" name="phone" placeholder="Phone Number">
+                    <input class="formInput" type="email" name="_replyto" placeholder="Email">
+                    <textarea name="message" placeholder="I'm interested in..."></textarea>
+                    <br>
+                    <input class="formSubmit" type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
     
     <div class="footer-basic">
         <footer>
@@ -68,11 +155,11 @@
                 <a href="#"><i class="icon ion-social-facebook"></i></a>
             </div>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#" onclick="scrollToHome()">Home</a></li>
                 <li class="list-inline-item"><a href="#" onclick="scrollToAbout()">About</a></li>
-                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#" onclick="scrollToServices()">Services</a></li>
                 <li class="list-inline-item"><a href="#">Gallery</a></li>
-                <li class="list-inline-item"><a href="#">Contact Us</a></li>
+                <li class="list-inline-item"><a href="#" onclick="scrollToContactUs()">Contact Us</a></li>
             </ul>
             <p class="copyright">Voris Landscaping © 2018</p>
         </footer>
