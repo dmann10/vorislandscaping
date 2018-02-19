@@ -1,6 +1,6 @@
 .navbar.navbar-light.navbar-expand-md.navigation-clean {
     padding: 0;
-    height: 127px;
+    height: 145px;
     overflow: hidden;
 }
 
@@ -19,25 +19,70 @@
 }
 
 #splashImage {
-    height: 100vh;
+    height: 90vh;
     background-image: url("../img/vlSplash.jpeg");
     background-position: center;
     background-size: contain;
+    text-align: center;
 }
 
 #splashImage > h1 {
-    text-align: center;
     margin-top: 200px;
     color: white;
-    text-shadow: 2px 0 black;
+    text-shadow: 2px 0 2px black;
     font-weight: bold;
     font-size: 65px;
+    font-family: 'Lato', sans-serif;
 }
 
-#aboutUsSection {
+#seeHowBtn {
+    display: inline-block;
+    margin-top: 20px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+#seeHowBtn:hover {
+    cursor: pointer;
+    box-shadow: 2px 0px 1px black
+}
+
+.aboutUsSection {
     min-height: 500px;
+}
+
+#aboutUsTextDiv {
+    height: 600px;
+    padding: 50px 100px;
+    background: #a1bc52;
+    color: white;
+}
+
+#aboutUsTextDiv > h1 {
+    margin-bottom: 50px;
+}
+
+#aboutUsTextDiv > p {
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+#aboutUsTextDiv > a {
+    font-style: italic;
+    color: white;
+    font-size: 18px;
+}
+
+#aboutUsRightImage {
+    height: 600px;
+    background-image: linear-gradient(to left, transparent 75%, #a1bc52 100%), url("../img/aboutUsSunset.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .footer-basic {
     box-shadow: 1px 1px 10px darkgray;
+    margin-top: 5px;
 }

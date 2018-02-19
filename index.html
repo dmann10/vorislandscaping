@@ -8,6 +8,7 @@
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -17,7 +18,7 @@
     <div>
         <nav class="navbar navbar-light navbar-expand-md navigation-clean">
             <div class="container">
-                <a href="#"><img src="assets/img/logo.jpg" alt="Voris Landscaping Logo" class="logo"></a>
+                <a href="#"><img src="assets/img/logo2.png" alt="Voris Landscaping Logo" class="logo"></a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="navbar-toggler-icon"></span>
@@ -25,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">About Us</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" onclick="scrollToAbout()">About Us</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Services</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Gallery</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact Us</a></li>
@@ -35,11 +36,27 @@
         </nav>
     </div>
     <div data-bs-parallax-bg="true" id="splashImage">
-        <h1>We take passion in our work.</h1>
+        <h1>We're passionate about our work.</h1>
+        <div id="seeHowBtn">SEE HOW</div>
     </div>
 
-    <div>
-        <h1 id="aboutUsSection">About Us</h1>
+    <div class="container-fluid">
+        <div class="row aboutUsSection">
+            <div class="col-md-8" id="aboutUsTextDiv">
+                <h1>About Us</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin elementum quis magna ac dignissim. 
+                    Maecenas vestibulum posuere rutrum. Duis ut nisi sodales, lobortis purus sit amet, auctor lectus. 
+                    Donec quis lectus eget arcu bibendum auctor. In id ipsum vitae leo consectetur feugiat non vitae eros. 
+                    Quisque molestie egestas velit vel sagittis. Etiam quis volutpat ligula. Praesent nec diam vulputate, 
+                    congue mauris et, scelerisque dui. Curabitur pharetra, turpis ut fermentum vestibulum, libero turpis 
+                    sollicitudin magna, non commodo dui odio et ligula. Nulla eget odio elit. Maecenas nec ligula ligula. 
+                    Donec egestas erat ut leo finibus, at pretium mi aliquet. Vivamus eu ipsum id dolor fringilla commodo.
+                </p>
+                <a href="#">See what others are saying about us</a>
+            </div>
+            <div class="col-md-4" id="aboutUsRightImage"></div>
+        </div>
     </div>
     
     <div class="footer-basic">
@@ -52,7 +69,7 @@
             </div>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#" onclick="scrollToAbout()">About</a></li>
                 <li class="list-inline-item"><a href="#">Services</a></li>
                 <li class="list-inline-item"><a href="#">Gallery</a></li>
                 <li class="list-inline-item"><a href="#">Contact Us</a></li>
@@ -63,6 +80,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>
