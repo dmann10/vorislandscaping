@@ -44,6 +44,12 @@ function scrollToServices() {
     }, 1000);
 }
 
+function scrollToTestimonials() {
+    $('html, body').animate({
+        scrollTop: $(".testimonialSection").offset().top
+    }, 1000);
+}
+
 function scrollToContactUs() {
     $('html, body').animate({
         scrollTop: $("#contactUsSection").offset().top

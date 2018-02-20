@@ -25,6 +25,7 @@
 
 .footer-basic ul a:hover {
   opacity:1;
+  color: green;
 }
 
 .footer-basic .social {
@@ -48,6 +49,22 @@
 
 .footer-basic .social > a:hover {
   opacity:0.9;
+}
+
+.ion-social-facebook:hover {
+  color: #346bae;
+}
+
+.ion-social-twitter:hover {
+  color: #00a4ee;
+}
+
+.ion-social-instagram:hover {
+  color: #df337d;
+}
+
+.ion-social-snapchat:hover {
+  color: #fff73f;
 }
 
 .footer-basic .copyright {

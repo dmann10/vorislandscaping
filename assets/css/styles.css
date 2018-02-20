@@ -144,11 +144,101 @@ h1 {
 .serviceInfoText > p {
     color: #ececec;
     text-shadow: 1px 1px 8px black;
+    padding-bottom: 20px;
+}
+
+.servicesLink {
+    font-style: italic; 
+    color:white;
+    text-shadow: 1px 1px 8px black;
+    font-size: 24px;
+}
+
+.servicesLink:hover {
+    color: white;
+}
+
+/* Testimonial Styles */
+.testimonialSection {
+   padding: 0 100px;
+   min-height: 600px;
+   border-bottom: 3px solid green;
+   margin-bottom: 50px;
+   color: #44586d;
+}
+
+.testimonialSection > .row {
+    margin-bottom: 50px;
+}
+
+.quote {
+    padding: 50px 100px;
+    margin-right: 50px;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.quote > p {
+    display: inline-block;
+    font-size: 22px;
+    font-style: italic;
+    vertical-align: top;
+    padding-top: 50px;
+    text-align: right;
+    max-width: 80%;
+}
+
+#signature {
+    display: inline-block;
+    font-size: 18px;
+    font-style: initial;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonialImage {
+    border: 1px solid gray;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.testimonialImage > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.quoteSymbol {
+    font-size: 80px;
+    display: inline-block;
+    margin: 0px 20px
+}
+
+.treeSeperator {
+    height: 10px;
+    position: relative;
+    top: 57px;
+    background: #538f63;
+}
+
+#treeImage {
+    background: white;
+    border: 3px solid #538f63;
+    border-radius: 100%;
+    margin: 0 auto;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
 }
 
 /* Contact Us Styles */
 #contactUsSection {
-    color: #44586d;
+    color: black;
 }
 
 .formInput {
