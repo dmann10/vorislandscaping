@@ -7,12 +7,12 @@ h1 {
 .navbar.navbar-light.navbar-expand-md.navigation-clean {
     padding: 0;
     height: 145px;
-    overflow: hidden;
 }
 
 .logo {
-    zoom: 25%;
-    margin-bottom: 30px;
+    height: 145px;
+    width: 200px;
+    margin-bottom: 5px;
 }
 
 .nav-link {
