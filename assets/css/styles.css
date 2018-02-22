@@ -364,6 +364,10 @@ textarea {
         padding: 20px 0px;
     }
 
+    .quoteSymbol {
+        font-size: 60px;
+    }
+
     .quote > p {
         font-size: 18px;
         max-width: 56%;
