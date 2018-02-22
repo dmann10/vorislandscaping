@@ -19,10 +19,11 @@
         <nav class="navbar navbar-light navbar-expand-md navigation-clean">
             <div class="container">
                 <a href="#"><img src="assets/img/logo2.png" alt="Voris Landscaping Logo" class="logo"></a>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#" onclick="scrollToHome()">Home</a></li>
@@ -42,7 +43,7 @@
 
     <div class="container-fluid">
         <div class="row aboutUsSection">
-            <div class="col-md-8" id="aboutUsTextDiv">
+            <div class="col-md-8 col-sm-6" id="aboutUsTextDiv">
                 <h1>About Us</h1>
                 <p>
                     We're a family owned business providing both residential and commercial service to the greater capital region 
@@ -123,23 +124,23 @@
     <div class="container-fluid testimonialSection">
         <div class="row">
             <h2 style="font-family:'Lato',sans-serif; border-bottom: 1px solid #44586d; padding: 0px 10px;">See What Our Customers Are Saying About Us!</h2>
-            <div class="col-md-8">
-                <div class="quote" style="text-align:left;">
+            <div class="col-md-8 col-sm-6">
+                <div class="quote" style="text-align:center;">
                     <span class="quoteSymbol">&#8220;</span><p>Their talent is just amazing!</p><span class="quoteSymbol">&#8221;</span>
                     <br>
-                    <p id="signature" style="margin-left:20%;">Barbara P., East Greenbush</p>
+                    <p id="signature" style="margin-left:19%;">Barbara P., East Greenbush</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="testimonialImage"><img src="assets/img/testimonial1.jpg" alt=""></div>
+                <div class="testimonialImage" id="firstTestimonialImage"><img src="assets/img/testimonial1.jpg" alt=""></div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" id="desktopTestimonialImg">
                 <div class="testimonialImage"><img src="assets/img/testimonial2.jpg" alt="Red Mulch in a Garden"></div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-6">
                 <div class="quote">
                     <span class="quoteSymbol">&#8220;</span>
                     <p>
@@ -150,10 +151,13 @@
                     <p id="signature">Janet W., Rotterdam</p>
                 </div>
             </div>
+            <div class="col-md-4" id="mobileTestimonialImg">
+                <div class="testimonialImage"><img src="assets/img/testimonial2.jpg" alt="Red Mulch in a Garden"></div>
+            </div>
         </div>
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-6">
                 <div class="quote">
                     <span class="quoteSymbol">&#8220;</span>
                         <p>
