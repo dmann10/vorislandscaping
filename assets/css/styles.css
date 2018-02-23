@@ -168,6 +168,13 @@ h1 {
     margin-bottom: 50px;
 }
 
+.testimonialHeader {
+    font-family: 'Lato',sans-serif; 
+    border-bottom: 1px solid #44586d; 
+    padding: 0px 10px;
+    margin-bottom: 35px;
+}
+
 .quote {
     padding: 50px 100px;
     margin-right: 50px;
@@ -295,7 +302,7 @@ textarea {
 }
 
 /* Responsize Styles */
-@media (max-width: 760px) {
+@media (max-width: 767px) {
     .navbar.navbar-light.navbar-expand-md.navigation-clean {
         padding-left: 10px;
         padding-right: 25px;
@@ -394,4 +401,62 @@ textarea {
         margin: 0 auto;
         width: 85%
     }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navigation-clean.navbar .navbar-nav .nav-link {
+        padding-left: 14px;
+        padding-right: 14px;
+        font-size: 17px;
+    }
+    
+    #aboutUsTextDiv {
+        padding: 50px; 
+    }
+
+    #aboutUsTextDiv > p {
+        margin-top: 25px;
+        margin-bottom: 37px;
+        font-size: 19px;
+    }
+
+    .serviceCol > h3 {
+        font-size: 20px;
+    }
+
+    .serviceInfoText {
+        top: 54px;
+        height: 92.25%;
+    }
+
+    .serviceInfoText > p {
+        font-size: 18px;
+    }
+
+    .servicesLink {
+        font-size: 20px;
+    }
+
+    .testimonialSection {
+        padding: 0px 48px;
+    }
+    
+    .testimonialImage {
+        height: 225px;
+        width: 225px;
+    }
+
+    .quote {
+        padding: 0;
+        margin-right: 5px;
+    }
+
+    .quote > p {
+        max-width: 75%;
+    }
+
+    .quoteSymbol {
+        margin: 0px 10px;
+    }
+
 }
