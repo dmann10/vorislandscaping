@@ -41,10 +41,11 @@
         <div id="seeHowBtn" onclick="scrollToServices()">SEE HOW</div>
     </div>
 
+    <a id="aboutUsAnchor"></a>
     <div class="container-fluid">
         <div class="row aboutUsSection">
             <div class="col-md-8 col-sm-6" id="aboutUsTextDiv">
-                <h1>About Us</h1>
+                <h1 style="font-style:initial">About Us</h1>
                 <p>
                     We're a family owned business providing both residential and commercial service to the greater capital region 
                     in all things landscaping and snow &amp; ice removal. Our work is our passion and we've been putting everything
@@ -58,8 +59,11 @@
         </div>
     </div>
 
+
     <div class="container-fluid serviceSection">
-        <h1>Our Services</h1>
+        <a id="servicesAnchor">
+            <h1>Our Services</h1>
+        </a>
         <h4><b>Providing Quality to both Residential and Commercial Customers across the Capital Region</b></h4>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 serviceCol">
@@ -181,32 +185,34 @@
         <div class="row treeSeperator"><div id="treeImage"><img src="assets/img/tree.png" style="height:100%;"></div></div>
     </div>
     
-    <div class="container" id="contactUsSection">
-        <div class="row">
-            <div class="col-md-6">
-                <h1>Contact Us</h1>
-                <p style="font-size:20px">
-                    To get started, fill out your info here or simply just give us a call today!
-                    We will get back to you as soon as we can. Thank you! 
-                </p>
-                <ul style="list-style:none; padding:0">
-                    <li><img src="assets/img/icons8-phone-50.png" style="height:25px; margin: 30px 20px">518-944-4087</li>
-                    <li><img src="assets/img/icons8-envelope-50.png" style="height:28px; margin: 5px 20px">vorislandscapinginc@yahoo.com</li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <form action="https://formspree.io/vorislandscapinginc@yahoo.com" method="POST" style="margin-top:13px"> 
-                    <input class="formInput" type="text" name="name" placeholder="Full Name" required>
-                    <input class="formInput" type="tel" name="phone" placeholder="Phone Number" required>
-                    <input class="formInput" type="email" name="_replyto" placeholder="Email" required>
-                    <textarea name="message" placeholder="I'm interested in..." required></textarea>
-                    <br>
-                    <input class="formSubmit" type="submit" value="Send">
-                </form>
+    <a id="contactUsAnchor">
+        <div class="container" id="contactUsSection">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Contact Us</h1>
+                    <p style="font-size:20px">
+                        To get started, fill out your info here or simply just give us a call today!
+                        We will get back to you as soon as we can. Thank you! 
+                    </p>
+                    <ul style="list-style:none; padding:0">
+                        <li><img src="assets/img/icons8-phone-50.png" style="height:25px; margin: 30px 20px">518-944-4087</li>
+                        <li><img src="assets/img/icons8-envelope-50.png" style="height:28px; margin: 5px 20px">vorislandscapinginc@yahoo.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <form action="https://formspree.io/vorislandscapinginc@yahoo.com" method="POST" style="margin-top:13px"> 
+                        <input class="formInput" type="text" name="name" placeholder="Full Name" required>
+                        <input class="formInput" type="tel" name="phone" placeholder="Phone Number" required>
+                        <input class="formInput" type="email" name="_replyto" placeholder="Email" required>
+                        <textarea name="message" placeholder="I'm interested in..." required></textarea>
+                        <br>
+                        <input class="formSubmit" type="submit" value="Send">
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-    
+    </a>
+
     <div class="footer-basic">
         <footer>
             <div class="social">
@@ -223,6 +229,7 @@
                 <li class="list-inline-item"><a href="#" onclick="scrollToContactUs()">Contact Us</a></li>
             </ul>
             <p class="copyright">Voris Landscaping © 2018</p>
+            <p class="copyright" style="margin-top:0px">Schenectady, NY</p>
         </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

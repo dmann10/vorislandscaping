@@ -7,10 +7,12 @@
     <title>Voris Landscaping</title>
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -26,18 +28,34 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link" href="/">Home</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="/">About Us</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="/">Services</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="/#aboutUsAnchor">About Us</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="/#servicesAnchor">Services</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Gallery</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="/">Contact Us</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="/#contactUsAnchor">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
    
-    <div style="height:54vh">
-        <h2 style="margin-top:50px;">Gallery Coming Soon...</h2>
+    <div class="photo-gallery">
+        <div class="container">
+            <div class="intro">
+                <h1 class="text-center" style="font-family:'Lato', sans-sarif; color:#425a6c; margin-top:20px;">Our Gallery</h1>
+                <p class="text-center">Check out some of the work we've done around the region and see for yourself just how much value we can add to your home.</p>
+            </div>
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galleryImages/hardscape1_5.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/galleryImages/hardscape1_5.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galleryImages/hardscape1_1.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/galleryImages/hardscape1_1.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galleryImages/hardscape1_2.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/galleryImages/hardscape1_2.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galleryImages/hardscape1_3.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/galleryImages/hardscape1_3.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galleryImages/hardscape1_4.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/galleryImages/hardscape1_4.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galleryImages/hardscape1_6.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/galleryImages/hardscape1_6.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galleryImages/hardscape1_7.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/galleryImages/hardscape1_7.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galleryImages/hardscape1_8.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/galleryImages/hardscape1_8.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/galleryImages/hardscape1_9.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/galleryImages/hardscape1_9.jpg"></a></div>
+            </div>
+        </div>
     </div>
    
     <div class="footer-basic">
@@ -50,16 +68,18 @@
                 </div>
                 <ul class="list-inline">
                     <li class="list-inline-item"><a href="/">Home</a></li>
-                    <li class="list-inline-item"><a href="/">About</a></li>
-                    <li class="list-inline-item"><a href="/">Services</a></li>
+                    <li class="list-inline-item"><a href="/#aboutUsAnchor">About</a></li>
+                    <li class="list-inline-item"><a href="/#servicesAnchor">Services</a></li>
                     <li class="list-inline-item"><a href="#">Gallery</a></li>
-                    <li class="list-inline-item"><a href="/">Contact Us</a></li>
+                    <li class="list-inline-item"><a href="/#contactUsAnchor">Contact Us</a></li>
                 </ul>
                 <p class="copyright">Voris Landscaping © 2018</p>
+                <p class="copyright" style="margin-top:0px">Schenectady, NY</p>
             </footer>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
         <script src="assets/js/bs-animation.js"></script>
         <script src="assets/js/index.js"></script>
     </body>
