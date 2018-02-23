@@ -5,9 +5,11 @@ $(document).ready(function() {
     // Slide Down
     $('.serviceInfo').mouseenter(function() {
         var description = $(this).children('.serviceInfoText');
+        var clickHereDiv = $(this).children('.mobileClickForDescription');
         
         $(this).data('timeout', setTimeout(function () {
-            description.slideDown("slow"); 
+            clickHereDiv.fadeOut("fast");
+            description.slideDown("slow");
            }, 500))
         .mouseleave(function() {
             clearTimeout($(this).data('timeout'));
@@ -17,6 +19,7 @@ $(document).ready(function() {
     // Slide Up
     $('.serviceInfo').mouseleave(function() {
         var description = $(this).children('.serviceInfoText');
+        var clickHereDiv = $(this).children('.mobileClickForDescription');
         
         if(description.not(":hidden"))
             description.slideUp("slow");
