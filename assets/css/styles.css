@@ -420,23 +420,6 @@ textarea {
         font-size: 19px;
     }
 
-    .serviceCol > h3 {
-        font-size: 20px;
-    }
-
-    .serviceInfoText {
-        top: 54px;
-        height: 92.25%;
-    }
-
-    .serviceInfoText > p {
-        font-size: 18px;
-    }
-
-    .servicesLink {
-        font-size: 20px;
-    }
-
     .testimonialSection {
         padding: 0px 48px;
     }
@@ -457,6 +440,7 @@ textarea {
 
     .quoteSymbol {
         margin: 0px 10px;
+        font-size: 65px;
     }
 
 }
