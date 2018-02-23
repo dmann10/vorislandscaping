@@ -135,7 +135,7 @@ h1 {
 }
 
 .serviceInfo > img {
-    height: 135%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     position: relative;
@@ -443,10 +443,20 @@ textarea {
 
     .mobileClickForDescription {
         display: initial;
+        top: 58px;
+    }
+
+    .serviceInfoText {
+        top: 58px;
+        height: 91.75%;
     }
 
     .testimonialSection {
-        padding: 0px 48px;
+        padding: 0px 45px;
+    }
+
+    .testimonialHeader {
+        padding: 0;
     }
     
     .testimonialImage {
