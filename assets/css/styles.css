@@ -189,7 +189,7 @@ h1 {
 }
 
 .quote {
-    padding: 50px 100px;
+    padding: 50px 70px;
     margin-right: 50px;
     float: right;
     width: 100%;
@@ -240,7 +240,7 @@ h1 {
 .quoteSymbol {
     font-size: 80px;
     display: inline-block;
-    margin: 0px 20px
+    margin: 0px 10px
 }
 
 .treeSeperator {
